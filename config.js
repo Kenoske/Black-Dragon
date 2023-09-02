@@ -3,34 +3,34 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 
 //═══════[Required Variables]════════\\
-global.owner = "94786802371"
-global.mongodb = process.env.MONGODB_URI || "mongodb://ugykkx9yl6qknshgcown:lJ18kzUxXP5IqyyUZZc@bdzoktb5vy7mozj8zh6k-mongodb.services.clever-cloud.com:2319/bdzoktb5vy7mozj8zh6k"
+global.owner = "918731030752"
+global.mongodb = process.env.MONGODB_URI || "mongodb+srv://rinmongodb1:robin12032005@cluster0.dudmk3u.mongodb.net/?retryWrites=true&w=majority"
 global.port= process.env.PORT || 3000
-global.email = 'nimeshofficial.info@gmail.com'
+global.email = 'robinaaspirant@gmail.com'
 global.github = 'https://github.com/nimesh-official/Black-Dragon'
-global.location = 'Sri Lanka'
+global.location = 'India'
 global.gurl = 'https://instagram.com/' // add your username
-global.sudo = process.env.SUDO || '94786802371'
-global.devs = '94786802371';
+global.sudo = process.env.SUDO || '918731030752'
+global.devs = '918787599649';
 global.website = 'https://github.com/nimesh-official/Black-Dragon'
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/17d25248a18357d93d98e.jpg'
 module.exports = {
-  botname:   process.env.BOT_NAME || 'Black Dragon',
-  ownername: process.env.OWNER_NAME || 'Nimesh Official',
+  botname:   process.env.BOT_NAME || '𝚁𝙸𝙽 𝙱𝙾𝚃 𝙾𝙵𝙵𝙸𝙲𝙸𝙰𝙻',
+  ownername: process.env.OWNER_NAME || '亗•|ʀɪɴ☆᭄',
   sessionName:  process.env.SESSION_ID || 'Blackdragon;;;93QHXL7I#z7FsuiPEsD4RVBIOFELOE98SZXcwFrVGDiue3SxDz78',
-  author:  process.env.PACK_INFO === (";")[0] || 'Nimesh Official',
+  author:  process.env.PACK_INFO === (";")[0] || '𝚁𝙸𝙽 𝙱𝙾𝚃 𝙾𝙵𝙵𝙸𝙲𝙸𝙰𝙻',
   auto_read_status :  process.env.AUTO_READ_STATUS || 'false',
-  packname:  process.env.PACK_INFO === (";")[1] || 'Black-Dragon',
-  autoreaction:  process.env.AUTO_REACTION || 'false',
-  antibadword :  process.env.ANTI_BAD_WORD || 'nbwoed',
-  alwaysonline:  process.env.ALWAYS_ONLINE || 'false',
+  packname:  process.env.PACK_INFO === (";")[1] || '𝚁𝙸𝙽 𝙱𝙾𝚃 𝙾𝙵𝙵𝙸𝙲𝙸𝙰𝙻',
+  autoreaction:  process.env.AUTO_REACTION || 'true',
+  antibadword :  process.env.ANTI_BAD_WORD || 'true',
+  alwaysonline:  process.env.ALWAYS_ONLINE || 'true',
   antifake : process.env.FAKE_COUNTRY_CODE || '971',
   readmessage:  process.env.READ_MESSAGE || 'true',
   auto_status_saver: process.env.AUTO_STATUS_SAVER || 'false',
   HANDLERS:  process.env.PREFIX || ['.'],
   warncount : process.env.WARN_COUNT || '3',
   disablepm:  process.env.DISABLE_PM || 'false',
-  levelupmessage:  process.env.LEVEL_UP_MESSAGE || 'false',
+  levelupmessage:  process.env.LEVEL_UP_MESSAGE || 'true',
   antilink:  process.env.ANTILINK_VALUES || 'chat.whatsapp.com',
   antilinkaction: process.env.ANTILINK_ACTION || 'remove',
   BRANCH: 'main', 
